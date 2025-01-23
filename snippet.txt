@@ -1,0 +1,14 @@
+<model-viewer src="9_mm.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" exposure="2" shadow-softness="0.81" auto-rotate camera-orbit="51.94deg 89.37deg 487.2m" field-of-view="30deg" min-camera-orbit="-180deg 0deg 487.2m" min-field-of-view="30deg" environment-image="spruit_sunrise_1k_HDR.hdr" max-camera-orbit="180deg 180deg auto">
+    <button class="Hotspot" slot="hotspot-1" data-position="-54.147670209437635m 117.14620947155592m 36.18346455301062m" data-normal="-0.7964884436751073m 0.5311242341894779m -0.2889865168976686m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">9 MM Glock</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
